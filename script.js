@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	get namevalue(){
-		return this.name;
+		console.log(this.name);
 	}
 	set agevalue(age){
 		this.age=age;
