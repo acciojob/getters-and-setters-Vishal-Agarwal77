@@ -1,14 +1,14 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this._name=name;
-		this._age=age;
+		this.name=name;
+		this.age=age;
 	}
-	get namevalue(){
-		console.log(this._name);
+	get name(){
+		console.log(this.name);
 	}
 	set agevalue(age){
-		this._age=age;
+		this.age=age;
 	}
 }
 
